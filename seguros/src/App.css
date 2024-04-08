@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik+Scribble&display=swap");
+
+
+body {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url('../dist/assets/sunny.jpg');
+  font-family: 'Roboto', sans-serif;  
+}
+
+#root {
+  max-width: 1280px; 
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: cornflowerblue ;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(202, 116, 41)),url("../dist/assets/beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+
+
+#title {
+  /* color:#FF7657; */
+  color: rgba(255, 118, 87, 0.95);
+  font-family:  "Rubik Mono One", monospace;
+  font-size: 0.85rem;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-stroke-width: 1px; /* Ancho del trazo */
+  -webkit-text-stroke-color: black; /* Color del trazo */
+}
+
+/* #title{  
+  color:chocolate;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);  
+} */
+
+#cityCountry{
+  font-size: 15px;
+  font-weight: bold;
+  color:black;  
+}
+
+#sky{
+  font-weight: bold;
+  color:rgb(12, 12, 12); 
+  /* Color de fondo semi-transparente */ 
+  background-color: rgba(189, 188, 188, 0.5); 
+  border-radius: 10px;  
+}
+
+
+
+
+#temp{
+  color:rgb(12, 12, 12);
+  background-color: rgba(189, 188, 188, 0.5); /* Color de fondo semi-transparente */
+  border-radius: 10px;}
+
+#parraph{   
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semi-transparente */
+  /* Relleno alrededor del contenido del párrafo */
+  padding: 1px;
+}
+
+/* Cambia el color de la tipografía a rojo cuando la maxima supera 30ºC */
+.hot-temperature {  
+  color: red; 
+}
+
+
+
