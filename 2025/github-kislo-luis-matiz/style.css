@@ -1,0 +1,124 @@
+body {
+  background-color:rgba(14,38,65,255) ;
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,255,0 ) 80%, rgba(14,38,65,1) 100%),
+  url(/images/L\ MATIZ\ \ Story\ \(1\).jpg);
+  background-size: contain;
+  background-position: center;  
+  height: 100vh;
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+}
+
+ul {
+  list-style:none; /* saca los puntitos */
+  padding: 0;
+  
+}
+
+li {  
+  display: inline-block; /* los pone en línea */
+  margin:  50px;         /* espacio entre ellos */
+}
+
+
+
+div {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+  background-color:transparent;  
+  display:flex;
+  justify-content: center;
+  align-items:center;  
+  transform: translateX(-25px)translateY(-75px) 
+}
+
+a {
+  display: inline-block; /* Necesario para que se pueda aplicar padding y background */
+  padding: 10px;
+  border-radius: 200px;
+  transition: background-color 0.5s ease;
+  background-color: rgba(139, 20, 33,0.8);  
+}
+
+  
+a:hover {
+  background-color: rgba(139, 20, 33, 0.3); /* más suave, no desaparece */
+}
+
+
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  color:#eaad07;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.email-link {
+  all: unset; /* borra todo estilo heredado */
+  color: #eaad07;
+  text-decoration: underline;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+
+
+
+@media(max-width: 768px){
+
+ 
+  body {
+  background-color:rgba(14,38,65,255) ;
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(14,38,65,1) 100%),
+  url(/images/L\ MATIZ\ \ Story\ \(1\).jpg);
+  background-size: contain;
+  background-position: center;  
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+}
+  div{    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100vh;    
+  }
+
+  li {    
+  margin:  10px;         /* espacio entre ellos */
+  }
+
+  a {
+  background-color: rgba(139, 20, 33, 0.8);
+  color: inherit;
+}
+
+  a:hover {
+  background-color: rgba(139, 20, 33, 0.3); /* más suave, no desaparece */
+}
+
+a:visited {
+  background-color: rgba(139, 20, 33, 0.8);
+}
+
+
+}
+
+
